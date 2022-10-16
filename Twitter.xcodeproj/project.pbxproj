@@ -117,7 +117,6 @@
 				C6E4FC6C28F517D100EA5EFC /* Controller */,
 				C6E4FC7128F5181C00EA5EFC /* API */,
 				C6E4FC7228F5182B00EA5EFC /* Utils */,
-				C6E4FC7F28F51BA300EA5EFC /* Extensions.swift */,
 				C6E4FC3928F3FDE900EA5EFC /* AppDelegate.swift */,
 				C6E4FC3B28F3FDE900EA5EFC /* SceneDelegate.swift */,
 				C6E4FC3F28F3FDE900EA5EFC /* Main.storyboard */,
@@ -189,6 +188,7 @@
 		C6E4FC7228F5182B00EA5EFC /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				C6E4FC7F28F51BA300EA5EFC /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
