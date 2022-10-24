@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6730DA829063749005CF63A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6730DA729063749005CF63A /* LoginController.swift */; };
+		C6730DAA29063796005CF63A /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6730DA929063796005CF63A /* RegistrationController.swift */; };
 		C6E4FC3A28F3FDE900EA5EFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E4FC3928F3FDE900EA5EFC /* AppDelegate.swift */; };
 		C6E4FC3C28F3FDE900EA5EFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E4FC3B28F3FDE900EA5EFC /* SceneDelegate.swift */; };
 		C6E4FC4128F3FDE900EA5EFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6E4FC3F28F3FDE900EA5EFC /* Main.storyboard */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C6730DA729063749005CF63A /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		C6730DA929063796005CF63A /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		C6E4FC3628F3FDE900EA5EFC /* Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E4FC3928F3FDE900EA5EFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6E4FC3B28F3FDE900EA5EFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +92,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C6730DA629063732005CF63A /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				C6730DA729063749005CF63A /* LoginController.swift */,
+				C6730DA929063796005CF63A /* RegistrationController.swift */,
+			);
+			name = Authentication;
+			path = ../ViewModel/Authentication;
+			sourceTree = "<group>";
+		};
 		C6E4FC2D28F3FDE800EA5EFC = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +162,7 @@
 		C6E4FC6C28F517D100EA5EFC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C6730DA629063732005CF63A /* Authentication */,
 				C6E4FC7328F518AD00EA5EFC /* MainTabController.swift */,
 				C6E4FC7528F519E500EA5EFC /* FeedController.swift */,
 				C6E4FC7728F51A2100EA5EFC /* ExploreController.swift */,
@@ -330,9 +345,11 @@
 				C6E4FC7C28F51A3A00EA5EFC /* ConversationsController.swift in Sources */,
 				C6E4FC7628F519E500EA5EFC /* FeedController.swift in Sources */,
 				C6E4FC7428F518AD00EA5EFC /* MainTabController.swift in Sources */,
+				C6730DAA29063796005CF63A /* RegistrationController.swift in Sources */,
 				C6E4FC7A28F51A2F00EA5EFC /* NotificationsController.swift in Sources */,
 				C6E4FC4428F3FDE900EA5EFC /* Twitter.xcdatamodeld in Sources */,
 				C6E4FC7828F51A2100EA5EFC /* ExploreController.swift in Sources */,
+				C6730DA829063749005CF63A /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
