@@ -14,7 +14,7 @@ class LoginController: UIViewController {
         let iv = UIImageView()
         iv.contentMode = .scaleAspectFill
         iv.clipsToBounds = true
-//        iv.image = #ImageLiteral
+        iv.image = #imageLiteral(resourceName: "TwitterLogo")
         return iv
     }()
     
@@ -26,9 +26,6 @@ class LoginController: UIViewController {
         configureUI()
     }
     
-    
-
-    
     // MARK: - Selectors
     
     
@@ -37,6 +34,10 @@ class LoginController: UIViewController {
         view.backgroundColor = .twitterBlue
         navigationController?.navigationBar.barStyle = .black
         navigationController?.navigationBar.isHidden = true
+        
+        view.addSubview(logoImageView)
+        logoImageView.centerX(inView: view, topAnchor: view.safeAreaLayoutGuide.topAnchor)
+        logoImageView.setDimensions(width: 150, height: 150)
     }
 
 }
